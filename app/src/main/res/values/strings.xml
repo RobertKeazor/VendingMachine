@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VendingMachine</string>
+    <string name="action_settings">Settings</string>
+    <string name="refill">Refill Machine</string>
+    <string name="nickes">Nickels</string>
+    <string name="changereturn">Change Returned :</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Coin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:id="@+id/coin_insert_text"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_toRightOf="@id/coin_insert_text"
+        android:paddingLeft="30dp"
+        android:id="@+id/add_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Amount"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/current"
+        android:layout_below="@+id/coin_insert_text"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/current"
+        android:id="@+id/currentamount"
+        android:layout_below="@id/coin_insert_text"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"/>
+
+</RelativeLayout>

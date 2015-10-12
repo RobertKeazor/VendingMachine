@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="20dp"
+    >
+
+        <ImageView
+            android:layout_below="@+id/stock"
+            android:background="@null"
+            android:id="@+id/item_img"
+            android:layout_width="80dip"
+            android:layout_height="80dip" />
+
+        <TextView
+            android:padding="2dip"
+            android:layout_margin="4dip"
+            android:textColor="#000"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="20"
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:padding="2dip"
+            android:background="@drawable/circle"
+            android:id="@+id/stocklimit"
+            android:text="30"
+            android:layout_toLeftOf="@+id/stock"/>
+
+
+        <TextView
+            android:layout_below="@+id/item_img"
+            android:padding="4dip"
+            android:text="1.5"
+            android:gravity="center"
+            android:background="#70BDBDBD"
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            style="@android:style/TextAppearance.DeviceDefault.Small.Inverse"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
